@@ -1,0 +1,10 @@
+Option
+
+  -notice    : notice属性で書き込みます
+  -socket    : tiarraのUNIXソケットのパスを指定します。
+  -channnel  : メッセージを書きこむチャンネル名を指定します。
+  -message   : 書き込むメッセージを指定します。
+
+Sample
+  ./tsw -notice -socket /tmp/tiarra-control/freenodesock  -channel "#hogehoge@freenode" -message fugafuga
+
